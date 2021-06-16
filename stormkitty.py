@@ -14,7 +14,7 @@ def generate_random_deck():
     print(max_deck_count)
     begin_count = portable_variables["begin_count"]
     while begin_count != max_deck_count:
-        with open(r'C:\Users\nyels\Desktop\development\python\machine learning\deckgen\cards.csv') as f:
+        with open(r'cards.csv') as f:
             reader = csv.reader(f)
             chosen_row = random.choice(list(reader))
             faction = str(chosen_row[3])

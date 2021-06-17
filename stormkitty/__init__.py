@@ -1,1 +1,1 @@
-from stormkitty.stormkittyfuncs import stormkittyMain
+from stormkitty.stormkittyfuncs import generation

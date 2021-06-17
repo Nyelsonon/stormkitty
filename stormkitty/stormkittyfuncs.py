@@ -3,6 +3,10 @@ import random
 import requests
 
 class generation:
+    
+    def __init__(self):
+        pass
+    
     def generate_random_deck(faction, display=False):
         portable_variables = {"max_deck_count":12, "begin_count":0, "CSV_URL":r'https://www.dropbox.com/s/acfzhdsostyd08s/cards.csv?dl=1'}
         CSV_URL = portable_variables["CSV_URL"]

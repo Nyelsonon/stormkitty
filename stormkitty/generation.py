@@ -2,7 +2,7 @@ import csv
 import random
 import requests
 
-class generation():
+class skgen():
     
     def generate_random_deck(faction, display=False):
         portable_variables = {"max_deck_count":12, "begin_count":0, "CSV_URL":r'https://www.dropbox.com/s/acfzhdsostyd08s/cards.csv?dl=1'}

@@ -8,7 +8,7 @@ import requests
 portable_variables = {"max_deck_count":12, "begin_count":0, "CSV_URL":r'https://www.dropbox.com/s/acfzhdsostyd08s/cards.csv?dl=1'}
 
 #firstly lets generate a random deck using faction as our first param
-def generate_random_deck(faction):
+def generate_random_deck(faction, display=False):
     global portable_variables
     CSV_URL = portable_variables["CSV_URL"]
     main_deck = []
@@ -25,8 +25,11 @@ def generate_random_deck(faction):
             if found_faction == str(faction) or found_faction == "neutral":
                 main_deck.append(chosen_row[0])
                 begin_count += 1
-                print(main_deck)
+                if display == True:
+                    print(main_deck)
             else:
-                print("->", end="")
+                if display == False:
+                    print("->", end="")
+                pass
 
     return main_deck

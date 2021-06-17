@@ -24,6 +24,6 @@ from stormkitty import stormkittyfuncs
 
 The Stormkitty module defines these functions:
 ```py
-stormkitty.generate_random_deck(faction, display)
+stormkitty.generate_random_deck(faction)
 ```
 the stormkitty.generate_random_deck(faction) generates a random deck for you, given a faction.

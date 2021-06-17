@@ -1,4 +1,3 @@
-
 from distutils.core import setup
 setup(
   name = 'stormkitty',         # How you named your package folder (MyLib)

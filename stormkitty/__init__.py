@@ -1,1 +1,1 @@
-from MyLib.stormkittyfuncs import stormkittyMain
+from stormkitty.stormkittyfuncs import stormkittyMain

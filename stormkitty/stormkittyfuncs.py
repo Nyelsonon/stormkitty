@@ -1,6 +1,5 @@
 import csv
 import random
-import os
 import requests
 
 class stormkittyMain:

@@ -2,7 +2,7 @@ import csv
 import random
 import requests
 
-class generation:
+class generation():
     
     def __init__(self):
         pass

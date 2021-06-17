@@ -1,9 +1,10 @@
+import csv
+import random
+import os
+import requests
+
 class stormkittyMain:
     def generate_random_deck(self, faction, display=False):
-        import csv
-        import random
-        import os
-        import requests
         portable_variables = {"max_deck_count":12, "begin_count":0, "CSV_URL":r'https://www.dropbox.com/s/acfzhdsostyd08s/cards.csv?dl=1'}
         CSV_URL = portable_variables["CSV_URL"]
         main_deck = []

@@ -28,8 +28,9 @@ def generate_random_deck(faction, display=False):
                 if display == True:
                     print(main_deck)
             else:
-                if display == False:
+                if display == True:
                     print("->", end="")
                 pass
 
     return main_deck
+

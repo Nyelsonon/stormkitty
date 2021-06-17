@@ -12,3 +12,18 @@ MACOS:
 
 LINUX:
 >pip install stormkitty
+
+##import
+
+To import stormkitty type:
+```py
+from stormkitty import stormkittyfuncs
+```
+
+## functions
+
+The Stormkitty module defines these functions:
+```py
+stormkitty.generate_random_deck(faction, display)
+```
+the stormkitty.generate_random_deck(faction) generates a random deck for you, given a faction.

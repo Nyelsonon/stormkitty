@@ -17,7 +17,7 @@ LINUX:
 
 To import stormkitty type:
 ```py
-from stormkitty import stormkittyfuncs
+from stormkitty import stormkittyMain
 ```
 
 ## functions

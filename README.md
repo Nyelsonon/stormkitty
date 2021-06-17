@@ -13,7 +13,7 @@ MACOS:
 LINUX:
 >pip install stormkitty
 
-##import
+## import
 
 To import stormkitty type:
 ```py

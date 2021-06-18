@@ -28,3 +28,34 @@ class skgen():
                         print("->", end="")
 
         return main_deck
+    
+    def kitty_to_deck(link):
+        id = link.replace('https://stormbound-kitty.com/deck/', '')
+        id = id.replace('/detail', '')
+        CSV_URL = r'https://www.dropbox.com/s/acfzhdsostyd08s/cards.csv?dl=1'
+        with requests.Session() as s:
+            download = s.get(CSV_URL)
+            decoded_content = download.content.decode('utf-8')
+            cards_url = csv.reader(decoded_content.splitlines(), delimiter=',')
+            cards = list(cards_url)
+        broken_id = [char for char in id]
+        if broken_id[1] == 'x':
+             broken_id.pop(0)
+             broken_id.pop(0)
+        kitty_deck = []
+        for i in range(12):
+            try:
+                broken_id[2] = int(broken_id[2])
+                id_check = str(broken_id[0]) + str(broken_id[1]) + str(broken_id[2])
+                broken_id.pop(0)
+                broken_id.pop(0)
+                broken_id.pop(0)
+            except:
+                id_check = str(broken_id[0]) + str(broken_id[1])
+                broken_id.pop(0)
+                broken_id.pop(0)
+            for row in cards:
+                if row[1] == id_check.upper():
+                    kitty_deck.append(row[0])
+
+        return kitty_deck

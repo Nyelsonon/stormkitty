@@ -29,7 +29,6 @@ class skgen():
 
         return main_deck
 
-        return kitty_deck
     def kitty_to_deck(link):
         id = link.replace('https://stormbound-kitty.com/deck/', '')
         id = id.replace('/detail', '')

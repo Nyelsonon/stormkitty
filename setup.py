@@ -17,8 +17,7 @@ setup(
   author = 'nyelson',                   # Type in your name
   author_email = 'nyelsonexists@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/Nyelsonon/stormkitty',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/Nyelsonon/stormkitty/archive/refs/tags/v0.9.tar.gz',    # I explain this later on
-  download_url = 'https://github.com/Nyelsonon/stormkitty/archive/refs/tags/v0.4.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/Nyelsonon/stormkitty/archive/refs/tags/v0.5.tar.gz'
   keywords = ['STORMBOUND', 'GENERATION', 'GAME'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'requests',

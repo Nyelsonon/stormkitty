@@ -13,6 +13,9 @@ MACOS:
 LINUX:
 >pip install stormkitty
 
+PYPI SITE:
+>https://pypi.org/project/stormkitty/
+
 ## import
 
 To import stormkitty type:

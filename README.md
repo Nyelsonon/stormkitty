@@ -20,7 +20,7 @@ PYPI SITE:
 
 To import stormkitty type:
 ```py
-from stormkitty import stormkittyMain
+from stormkitty import skgen
 ```
 
 ## functions

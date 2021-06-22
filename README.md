@@ -13,7 +13,7 @@ MACOS:
 LINUX:
 >pip install stormkitty
 
-PYPI SITE:
+PYPI SITE(documentation is wrong on here...but installs and everything else is fine):
 >https://pypi.org/project/stormkitty/
 
 ## import

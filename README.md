@@ -23,7 +23,7 @@ To import stormkitty type:
 from stormkitty import skgen
 ```
 
-## functions
+## documentation
 
 The Stormkitty module defines these functions:
 
